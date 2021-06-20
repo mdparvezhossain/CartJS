@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1192px;
+    margin: 5px auto;
+}
+
+header{
+    background-color: #24a19c;
+    padding: 0% 1%;
+}
+.logo{
+    /* height: 70px;
+    width: 70px; */
+    /* line-height: 70px; */
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.cart-logo{
+    /* height: 70px;
+    width: 70px;
+    line-height: 70px; */
+    text-align: right;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#banner-sec{
+    background-image: url("./images/rsbg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-contents{
+    padding: 50px 10px;
+    text-align: center;
+}
+.banner-contents h1{
+    width: 100%;
+    margin: 15px auto;
+    font-size: 3rem;
+    background: rgba(255, 255, 0, 0.884);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Handlee', cursive;
+}
+.banner-contents p{
+    width: 300px;
+    margin: 15px auto;
+    background: rgba(0, 128, 0);
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.card-body{
+    background: darkgray;
+    text-align: center;
+}
+.card-body > h5{
+    font-size: 1rem;
+    font-weight: bolder;
+    background: tomato;
+    color: white;
+}
+.card-body > p{
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+.card{
+    transition: .4s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.btn{
+    transition: .4s;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#contact{
+    padding: 1%;
+    background: #595b83;
+}
+.contact-details{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.map{
+    width: 100%;
+    height: 250px;
+}
+.contact-details p, address{
+    font-size: 0.8rem;
+}
+
