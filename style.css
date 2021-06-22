@@ -77,12 +77,12 @@ header{
     font-size: 0.8rem;
     font-weight: bolder;
 }
-.card{
+/* .card{
     transition: .4s;
 }
 .card:hover{
     transform: scale(1.1);
-}
+} */
 .btn{
     transition: .4s;
 }

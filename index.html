@@ -18,15 +18,15 @@
 
     <div class="container">
         <header>
-            <div class="row mb-1">
-                <div class="col-lg-4">
+            <div class="row mb-3">
+                <div class="col-lg-2">
                     <div class="logo-div">
                         <a href="#">
                            <i class="logo fas fa-utensils fa-2x"></i>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <form>
                         <div class="mb-3 d-flex">
                           <input type="text" class="form-control" placeholder="Search">
@@ -34,11 +34,28 @@
                         </div>
                       </form>
                 </div>
-                <div class="col-lg-2 position-relative">
+                <div class="col-lg-5 position-relative">
                     <a href="#">
                         <i class="cart-logo fas fa-shopping-cart fa-2x"></i>
                         <span class="badge bg-danger position-absolute">0</span>
                     </a>
+                    <div class="card">
+                        <div class="card-body">
+                            <table id="show-card" class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Image</th>
+                                    <th scope="col">Title</th>
+                                    <th scope="col">ItemNo</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Action</th>
+                                  </tr>
+                                </thead>
+                                <tbody> </tbody>
+                              </table>
+                              <button id="remove_all" class="btn btn-danger">Remove All</button>
+                        </div>
+                      </div>
                 </div>
             </div>
         </header>
@@ -60,7 +77,7 @@
                             <div class="card-body">
                               <h5 class="card-title">Beef Fried</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <p class="cardItem">Item No : 103</p>
+                              <p class="itemNo">Item No : 103</p>
                               <p>Price : <span>$7</span></p>
                               <a href="#" class="btn btn-primary">Add to card</a>
                             </div>
@@ -73,7 +90,7 @@
                             <div class="card-body">
                               <h5 class="card-title">Fruite</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <p>Item No : 104</p>
+                              <p class="itemNo">Item No : 104</p>
                               <p>Price :<span>$5</span></p>
                               <a href="#" class="btn btn-primary">Add to card</a>
                             </div>
@@ -86,7 +103,7 @@
                             <div class="card-body">
                               <h5 class="card-title">Beef Berger</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <p>Item No : 105</p>
+                              <p class="itemNo">Item No : 105</p>
                               <p>Price : <span>$8</span></p>
                               <a href="#" class="btn btn-primary">Add to card</a>
                             </div>
@@ -99,7 +116,7 @@
                             <div class="card-body">
                               <h5 class="card-title">Chiken Cary</h5>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <p>Item No : 106</p>
+                              <p class="itemNo">Item No : 106</p>
                               <p>Price : <span>$3</span></p>
                               <a href="#" class="btn btn-primary">Add to card</a>
                             </div>
@@ -118,7 +135,7 @@
                         <div class="contact-details">
                             <h3>Contact Details</h3>
                             <div>
-                                <h5>Spicy King Restaurant</h5>
+                                <h5>Becha Kena Restaurant</h5>
                                 <address>
                                     05no Ward, Hat-Vogdia <br> 
                                     Louhajong, Munshiganj
